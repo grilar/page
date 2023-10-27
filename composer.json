@@ -1,0 +1,22 @@
+{
+    "name": "grilar/page",
+    "description": "Page package",
+    "type": "package",
+	"license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Grilar\\Page\\": "src"
+        }
+    },
+    "require": {
+        "grilar/platform": "*@dev",
+        "grilar/revision": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Grilar\\Page\\Providers\\PageServiceProvider"
+            ]
+        }
+    }
+}
